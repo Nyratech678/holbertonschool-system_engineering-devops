@@ -1,11 +1,3 @@
----
-title: Projet Web Infrastructure Design — Tâche 1
----
-
-# Infrastructure web distribuée
-
-Diagramme (Mermaid)
----------------------
 ```mermaid
 graph TD
   User[User]

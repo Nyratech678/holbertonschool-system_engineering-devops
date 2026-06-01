@@ -1,11 +1,3 @@
----
-title: Secured and Monitored Web Infrastructure
----
-
-# Secured and monitored web infrastructure for www.foobar.com
-
-Diagram (Mermaid)
-------------------
 ```mermaid
 graph TD
     User[User]
