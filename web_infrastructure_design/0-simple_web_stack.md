@@ -1,4 +1,4 @@
-<a href="https://zupimages.net/viewer.php?id=26/23/w4q6.png"><img src="https://zupimages.net/up 26/23/w4q6.png" alt="" /></a>
+https://zupimages.net/up/26/23/w4q6.png
 
     Serveur : ordinateur, machine virtuelle, ou ensemble d’appareil physique qui héberge tout type d’application ou de service (SaaS, DBaaS, etc.).
 
