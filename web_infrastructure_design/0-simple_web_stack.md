@@ -1,5 +1,4 @@
-https://raw.githubusercontent.com/Nyratech678/holbertonschool-system_engineering-devops/main/web_infrastructure_design/flowtachart/0-simple-web_stack.drawio.png
-
+![Diagramme Tâche 0](flowtachart/0-simple-web_stack.drawio.png)
     Serveur : ordinateur, machine virtuelle, ou ensemble d’appareil physique qui héberge tout type d’application ou de service (SaaS, DBaaS, etc.).
 
     Nom de domaine : une adresse IP traduite en adresse lisible à l’œil humain via le protocole DNS.
