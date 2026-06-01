@@ -1,4 +1,4 @@
-https://zupimages.net/up/26/23/w4q6.png
+https://raw.githubusercontent.com/Nyratech678/holbertonschool-system_engineering-devops/main/web_infrastructure_design/flowtachart/0-simple-web_stack.drawio.png
 
     Serveur : ordinateur, machine virtuelle, ou ensemble d’appareil physique qui héberge tout type d’application ou de service (SaaS, DBaaS, etc.).
 
