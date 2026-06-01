@@ -3,7 +3,7 @@ graph TD
     User[User]
     Internet[Internet]
     FW1[Firewall 1 - Perimeter]
-    LB[Load Balancer (HAProxy)<br/>SSL certificate: www.foobar.com]
+    LB[Load Balancer]
     MC_LB[Monitoring Client - LB]
 
     FW2a[Firewall 2a - Server 1]

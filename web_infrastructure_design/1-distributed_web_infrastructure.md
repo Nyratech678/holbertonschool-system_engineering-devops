@@ -2,7 +2,7 @@
 graph TD
   User[User]
   Internet[Internet]
-  LB[Load Balancer (HAProxy)]
+  LB[Load Balancer]
 
   subgraph Server1[Server 1]
     S1_web[Nginx]
