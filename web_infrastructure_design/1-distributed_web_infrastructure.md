@@ -8,30 +8,30 @@ Diagramme (Mermaid)
 ---------------------
 ```mermaid
 graph TD
-  User[Utilisateur]
+  User[User]
   Internet[Internet]
   LB[Load Balancer (HAProxy)]
 
-  subgraph S1["Serveur 1"]
+  subgraph Server1[Server 1]
     S1_web[Nginx]
     S1_app[Application]
     S1_db[MySQL]
-    S1_web --> S1_app
-    S1_app --> S1_db
   end
 
-  subgraph S2["Serveur 2"]
+  subgraph Server2[Server 2]
     S2_web[Nginx]
     S2_app[Application]
     S2_db[MySQL]
-    S2_web --> S2_app
-    S2_app --> S2_db
   end
 
   User --> Internet
   Internet --> LB
   LB --> S1_web
   LB --> S2_web
+  S1_web --> S1_app
+  S1_app --> S1_db
+  S2_web --> S2_app
+  S2_app --> S2_db
 ```
 
 Explications
