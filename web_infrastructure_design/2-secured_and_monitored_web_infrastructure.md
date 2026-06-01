@@ -11,7 +11,7 @@ graph TD
     User[User]
     Internet[Internet]
     FW1[Firewall 1 - Perimeter]
-    LB[Load Balancer (HAProxy) \n SSL certificate: www.foobar.com]
+    LB[Load Balancer (HAProxy)<br/>SSL certificate: www.foobar.com]
     MC_LB[Monitoring Client - LB]
 
     FW2a[Firewall 2a - Server 1]
@@ -38,12 +38,12 @@ graph TD
     FW2b --> S2
 
     %% internal flows
-    subgraph S1
+    subgraph Server1[Server 1]
         S1_web --> S1_app
         S1_app --> S1_db
     end
 
-    subgraph S2
+    subgraph Server2[Server 2]
         S2_web --> S2_app
         S2_app --> S2_db
     end

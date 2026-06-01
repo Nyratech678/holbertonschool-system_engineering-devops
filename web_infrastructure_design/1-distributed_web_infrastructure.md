@@ -12,7 +12,7 @@ graph TD
   Internet[Internet]
   LB[Load Balancer (HAProxy)]
 
-  subgraph S1[Serveur 1]
+  subgraph S1["Serveur 1"]
     S1_web[Nginx]
     S1_app[Application]
     S1_db[MySQL]
@@ -20,7 +20,7 @@ graph TD
     S1_app --> S1_db
   end
 
-  subgraph S2[Serveur 2]
+  subgraph S2["Serveur 2"]
     S2_web[Nginx]
     S2_app[Application]
     S2_db[MySQL]
@@ -30,8 +30,8 @@ graph TD
 
   User --> Internet
   Internet --> LB
-  LB --> S1
-  LB --> S2
+  LB --> S1_web
+  LB --> S2_web
 ```
 
 Explications
